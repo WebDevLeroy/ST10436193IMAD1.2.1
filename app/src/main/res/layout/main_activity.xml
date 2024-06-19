@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="311dp"
+        android:layout_height="100dp"
+        android:ems="10"
+        android:inputType="text"
+        android:rotationX="0"
+        android:text="The Springboks are the best!!"
+        android:visibility="visible"
+        tools:ignore="TextSizeCheck" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="323dp"
+        android:layout_height="307dp"
+        android:src="@drawable/SpringBoksLogo" />
+
+    <EditText
+        android:id="@+id/editTextText2"
+        android:layout_width="386dp"
+        android:layout_height="94dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="We won the rugby world cup 4 times." />
+</LinearLayout>
